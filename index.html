@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - MyApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <form action="/login" method="post" class="login-form">
+                <input type="text" placeholder="Phone number, username, or email" name="username" required>
+                <input type="password" placeholder="Password" name="password" required>
+                <button type="submit">Log In</button>
+            </form>
+            <div class="separator">OR</div>
+            <a href="/forgot-password" class="forgot-password">Forgot password?</a>
+            <p class="signup-link">Don't have an account? <a href="/signup">Sign up</a></p>
+        </div>
+    </div>
+</body>
+</html>
